@@ -40,7 +40,7 @@ print(func_result)
 
 func_result = calculate_cathetus_length(5, 4)
 print(func_result)
-
+.
 
 
 
