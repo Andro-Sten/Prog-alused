@@ -104,6 +104,22 @@ def multiply_between(start: int, end: int) -> int:
 print(f"-----------------------------------------------------------")
 
 #6. Make hola string
+def make_hola_string(count: int) -> str:
+    """
+    Make hola string.
+
+    print(make_hola_string(3)) => "holaholahola"
+    print(make_hola_string(0)) => ""
+    """
+    # Your code goes here
+    count = range(0, count)
+    final = ""
+    for i in count:
+        final = final + "hola"
+    return final
+
+    print(make_hola_string(3))
+    print(make_hola_string(0))
 
 
 
